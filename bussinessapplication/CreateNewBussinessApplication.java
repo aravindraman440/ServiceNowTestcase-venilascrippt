@@ -38,7 +38,7 @@ public class CreateNewBussinessApplication {
 		//step5: to enter the mandatory filled
 		driver.switchTo().frame("gsft_main");
 		//enter name
-		driver.findElementById("cmdb_ci_business_app.name").sendKeys("Aravind");
+		driver.findElementById("cmdb_ci_business_app.name").sendKeys("Aravind",Keys.ENTER);
 		//enter description
 		driver.findElementById("cmdb_ci_business_app.short_description").sendKeys("text lead");
 
